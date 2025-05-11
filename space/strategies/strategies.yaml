@@ -1,0 +1,10 @@
+"Edge":
+  - "Chain":
+      { }
+  - "Debate":
+      "num_debate": 2
+"Loop":
+  - "CoT":
+      "num_thoughts": 2
+  - "Reflection":
+      { }

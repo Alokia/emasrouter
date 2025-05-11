@@ -1,0 +1,14 @@
+task_pool = [
+    {
+        'name': 'Math',
+        'description': 'A mathematics problem often involves logical reasoning, calculations, and applying various mathematical concepts such as algebra, geometry, calculus, or statistics. The goal is to solve for unknowns, prove theorems, or model real-world phenomena using mathematical methods.'
+    },
+    {
+        'name': 'Commonsense',
+        'description': 'A commonsense question typically involves general knowledge, reasoning, or problem-solving skills. It may require understanding of everyday concepts, social norms, or human behavior to answer questions about common situations or scenarios.'
+    },
+    {
+        'name': 'Code',
+        'description': 'A code question typically involves writing, debugging, or understanding computer code. It may require knowledge of programming languages, algorithms, data structures, or software development practices to solve coding problems or implement software solutions.'
+    },
+]
