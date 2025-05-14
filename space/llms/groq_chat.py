@@ -50,23 +50,3 @@ class GroqChat(BaseLM):
             prompt_price=self.prompt_price, completion_price=self.completion_price
         )
         return response
-
-
-if __name__ == '__main__':
-    import asyncio
-    import time
-    from pydantic import BaseModel, Field
-
-    base_url = "https://api.groq.com/openai/v1"
-    api_key = "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"
-
-    llm = GroqChat(api_key, base_url, model="llama-3.3-70b-versatile")
-    message = {"role": "user", "content": "what is the result of 1 + 1?"}
-    print("query ------ ")
-    query = llm.query(messages=[message])
-    print("after query ------")
-    # for i in range(3):
-    #     print(i)
-    #     time.sleep(0.5)
-
-    print(query)
