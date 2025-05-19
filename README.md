@@ -1,4 +1,4 @@
-# From Individuals to Collaboration: Learning to Construct Multi-Agent Systems Dynamically
+# EMasRouter: Learning to Construct Heterogeneous Collaborative Multi-Agent Systems
 
 ## Method Overview
 
